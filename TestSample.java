@@ -14,6 +14,10 @@ public class TestSample
 	{
 		System.out.println("3");
 	}
+	private void t4()
+	{
+		System.out.println("3");
+	}
 	
 	public static void main(String[] args)
 	{
@@ -21,6 +25,7 @@ public class TestSample
 		ts.t1();
 		ts.t2();
 		ts.t3();
+		ts.t4();
 	}
 
 }
